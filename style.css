@@ -1,0 +1,79 @@
+body {
+    background-image: url(/Users/punyfart/Desktop/scroll4.png)
+
+}
+/* background-color: cornsilk;*/
+    
+
+
+h1 { 
+    text-align:center;
+    color: black;
+    font-size: 36pt;
+}
+
+
+h2 {
+    text-align:center;
+    color: black;
+    font-size: 20pt;
+}
+
+
+
+p {
+    margin-top: 10px;
+    text-align: center;
+    color: black;
+    font-size: 16pt;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid-container {
+    display: grid;
+    justify-content: center;
+    gap: 50px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    margin-top: 80px;
+  }
+
+  .grid-container img {
+    height: 150px;
+    width: auto;
+}
+.grid-container p{
+    text-align: center;
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a p:hover {
+    font-weight: bold;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+
+  .inner-link {
+    transition: box-shadow .3s;
+    margin: 20px;
+    border-radius:10px;
+    float: left;
+}
+.inner-link:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+.inner-link:hover > p {
+    font-weight: bold;
+}
